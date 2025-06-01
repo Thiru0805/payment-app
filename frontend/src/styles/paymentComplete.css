@@ -1,0 +1,29 @@
+.payment-complete-container {
+  padding: 3rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-complete-container h2 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.payment-complete-container p.status {
+  font-size: 1.2rem;
+  color: #334155;
+  margin: 0.5rem 0;
+}
+
+.payment-complete-container p.redirect-msg {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-top: 1rem;
+}
